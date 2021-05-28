@@ -8,6 +8,6 @@
 #include<stdio.h>
 int main(){
     int number1=10, number2=20;
-    printf(number1>number2);
+    printf("%d",number1+number2);
     return 0;
 }
