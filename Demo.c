@@ -5,11 +5,28 @@
  * Version      :   1.0
  * Date         :   12/05/2021
  * ***************************************************/
+
 #include<stdio.h>
 int main(){
-    int number1=10,number2=3;
-    float result;
-    result=(float)number1/number2;
-    printf("Result=%.3f",result);
-    return 0;    
+    int year;
+    printf("\nEnter year to check whether it leap year or not:");
+    scanf("%d",&year);
+    if(year%4==0){
+        if(year%100==0){
+            if(year%400==0){
+                printf("Leap year");
+            }
+            else{
+                printf("Not a leap year");
+            }
+        }
+        else{
+            printf("Leap year");
+        }
+    }
+    else{
+        printf("It is not a Leap year:");
+    }
+    return 0;
+      
 }
