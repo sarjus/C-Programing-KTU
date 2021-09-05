@@ -1,2 +1,1 @@
-
-    }
+for(i=0;destinationString[i]!='\0';i++);
