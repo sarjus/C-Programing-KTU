@@ -4,7 +4,7 @@
                     number is a positive integer that is equal to the sum of its factors excluding the number itself).
  * Author       :   Sarju S
  * Version      :   1.0
- * Date         :   21/05/2021
+ * Date         :   15/06/2024
  * ***************************************************/
 #include <stdio.h>
 
